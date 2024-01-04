@@ -1,0 +1,46 @@
+header, section, footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1;
+}
+
+.sec_1_main_title, .sec_2_sub_title, .header_gnb
+, .sec_3_sub_title, .sec_4_sub_title
+, .sec_5_imgtext, .footer_gnb_1, .footer_gnb_2 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.footer_family, .sec_5_title, .sec_4_main_title
+, .sec_3_main_title, .sec_2_main_title, .more {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 30px 150px;
+}
+
+.section_2 {
+    padding: 100px 250px 180px 250px;
+}
+
+.section_3 {
+    padding: 200px 0 75px 250px;
+}
+
+.section_4 {
+    padding: 75px 0 200px 150px;
+}
+
+.section_5 {
+    padding: 120px 250px;
+}
+
+footer {
+    padding: 50px 250px;
+}
+
+
