@@ -1,0 +1,93 @@
+html, body, #wrap, main, section, #content-wrap {
+  position: relative;
+}
+
+html {
+  font-size: 10px;
+}
+
+section {
+  height: auto;
+}
+
+body {
+  background: #eee;
+  font-family: 'play', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.inner {
+  /*padding: 0 18rem;*/
+}
+
+#content-section-wrapper {
+  height: auto;
+  background-color: #fff;
+}
+
+/*
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  font-size: 18px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/* ---------------- bg */
+/*
+.swiper-slide-1 {
+  background: url('../../images/main/main-1.png') no-repeat center /cover;
+}
+.swiper-slide-2 {
+  background: url('../../images/main/main-2.png') no-repeat center /cover;
+}
+.swiper-slide-3 {
+  background: url('../../images/main/main-3.png') no-repeat center /cover;
+}
+
+.back-bg {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  background: url('/images/bg/bg.png') no-repeat center /100%;
+}
+
+.introduction-1 {
+  background: url('/images/section/intro/intro_01.png') no-repeat center /100%;
+}
+.introduction-2 {
+  background: url('/images/section/intro/intro_02.png') no-repeat center /100%;
+}
+.introduction-3 {
+  background: url('/images/section/intro/intro_03.png') no-repeat center /100%;
+}
+*/
+
+/* ------------------ font - nanum */
+.swiper .swiper-wrapper .swiper-slide .inner .title .info-large,
+.swiper .swiper-wrapper .swiper-slide .inner .title .info-small,
+.introduce_txt p, header, .service-title-sub,
+.sec2 .inner .service-tab-menu ul li, .service-tab-content .service-btn,
+.footer-txt, .footer-support,.sec2 .inner .service-tab-content .tab-info .tab-info-title,
+.sec2 .inner .service-tab-content .tab-info .service-info li p
+ {
+  font-family: 'NanumSquareNeo', sans-serif;
+}
+
